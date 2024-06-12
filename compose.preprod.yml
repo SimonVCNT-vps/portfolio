@@ -4,10 +4,10 @@ services:
     build:
       context: ./
       dockerfile: ./dockerfile
-      image: httpd:2.4
-      container_name: my-apache-app
-      ports:
-      - '8080:80'
-      volumes:
-      - /:/var/www
+    image: httpd:2.4
+    container_name: my-apache-app
+    ports:
+    - '8080:80'
+    volumes:
+    - /:/var/www
     pull_policy: build
