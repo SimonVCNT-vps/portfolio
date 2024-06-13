@@ -1,43 +1,62 @@
-*{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background: #F6FDF7;
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-    background: #1A4827;
+nav ul {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
-.logo{
-    font-size: 25px;
-    color: #F6FDF7;
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
-    font-weight: 600;
+    font-size: 16px;
 }
 
-.navbar a{
-    font-size: 18px;
-    color: #4AAB1C;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: 1.25s;
+section {
+    padding: 50px 20px;
+    text-align: center;
 }
 
-.navbar a:hover {
-    color: #F6FDF7;
+#home {
+    background: #f4f4f4;
+}
+
+#about {
+    background: #e2e2e2;
+}
+
+#projects {
+    background: #d0d0d0;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+#contact {
+    background: #c8c8c8;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
